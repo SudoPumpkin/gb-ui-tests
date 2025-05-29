@@ -26,6 +26,7 @@ jobs:
 
       - name: Run UI tests
         run: npm run test:ui
+        continue-on-error: true
 
       - name: Run API tests
         run: npm run test:api

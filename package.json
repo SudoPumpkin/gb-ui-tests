@@ -23,7 +23,7 @@
     "test:api": "npx playwright test --grep \"\\[api\\]\"",
     "test:visual": "npx playwright test --grep \"\\[visual\\]\"",
     "test:report": "npx playwright show-report",
-    "test:report:ci": "npx playwright test --reporter=html --output=playwright-gha-report"
+    "test:report:ci": "npx playwright test"
   },
   "keywords": [],
   "author": "",

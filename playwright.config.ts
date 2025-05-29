@@ -13,6 +13,8 @@ export default defineConfig({
     screenshot: 'only-on-failure',
     baseURL: 'https://gb-saa-test.vercel.app/',
   },
+  workers: 1,
+  reporter: [['html', { outputFolder: 'playwright-gha-report', open: 'never' }]],
   projects: [
     {
       name: 'Desktop Chromium',

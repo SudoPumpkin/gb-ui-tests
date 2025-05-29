@@ -149,4 +149,6 @@ To view the Playwright HTML report after a CI run:
 2. Download the `playwright-html-report` artifact from the summary page.
 3. Unzip the artifact and open `index.html` in the `playwright-gha-report` directory in your browser.
 
+> Note: The Playwright HTML report output directory is set in `playwright.config.ts` and is always generated during CI runs.
+
 ---
