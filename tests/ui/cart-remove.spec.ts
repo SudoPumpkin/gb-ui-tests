@@ -1,9 +1,7 @@
 import { test, expect, Locator } from '@playwright/test';
 // This test checks if removing all items from the cart persists the empty state on page reload.
 
-test('[cart] [persistence] [regression] [smoke] Removing all items persists on reload', async ({
-  page,
-}) => {
+test('[cart] [ui] [regression] [smoke] Removing all items persists on reload', async ({ page }) => {
   await page.goto('/');
 
   // Early skip if cart is already empty

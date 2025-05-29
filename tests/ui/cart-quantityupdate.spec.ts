@@ -3,7 +3,7 @@ import { test, expect, Locator } from '@playwright/test';
 // This test checks if increasing the quantity of items in the cart updates the total amount correctly.
 // It first removes any out-of-stock items to avoid interference and then calculates total from scratch.
 
-test('[cart] [calculation] [smoke] Increasing quantity updates total correctly after removing out-of-stock items', async ({
+test('[cart] [ui] [smoke] Increasing quantity updates total correctly after removing out-of-stock items', async ({
   page,
 }) => {
   await page.goto('/');

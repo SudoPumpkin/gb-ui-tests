@@ -2,7 +2,7 @@ import { test, expect, Locator } from '@playwright/test';
 // This test checks if the cart total reflects discounts and ignores out-of-stock items,
 // and updates to zero after item removal.
 
-test('[cart] [regression] [smoke] Cart total reflects discounts and excludes out-of-stock items', async ({
+test('[cart] [regression] [ui] [smoke] Cart total reflects discounts and excludes out-of-stock items', async ({
   page,
 }) => {
   await page.goto('/');

@@ -2,7 +2,7 @@ import { test, expect, Locator } from '@playwright/test';
 // This test checks if the checkout button enables after removing an out-of-stock item from the cart.
 // It also verifies that the 'checkout' button triggers an action when clicked.
 
-test('[cart] [validation] [regression] Checkout button enables after removing out-of-stock item and triggers action on click', async ({
+test('[cart] [ui] [regression] Checkout button enables after removing out-of-stock item and triggers action on click', async ({
   page,
 }) => {
   await page.goto('/');

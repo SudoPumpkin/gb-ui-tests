@@ -29,7 +29,9 @@ const tabTests = [
   },
 ];
 
-test('[nav] [regression] [smoke] Tabs should navigate and update content', async ({ page }) => {
+test('[nav] [ui] [regression] [smoke] Tabs should navigate and update content', async ({
+  page,
+}) => {
   await page.goto('/');
 
   // Locators for the navigation bar, links, and header
