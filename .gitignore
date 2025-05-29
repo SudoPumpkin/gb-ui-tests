@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+
+# Playwright Test results and artifacts
+*.har
+*.png
+html/
+playwright-report/
+snapshots/
+test-results/
+tests-examples/
+trace.zip
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+coverage/
+
+# Temporary files
+tmp/
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini

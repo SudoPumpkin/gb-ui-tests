@@ -1,0 +1,43 @@
+{
+  "name": "gb-ui-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:all": "npx playwright test --grep \"\\[smoke\\]\" --grep \"\\[regression\\]\" --grep \"\\[ui\\]\" --grep \"\\[api\\]\" --grep \"\\[visual\\]\"",
+    "test:cart": "npx playwright test --grep \"\\[cart\\]\"",
+    "test:debug": "npx playwright test --debug",
+    "test:example": "npx playwright test --grep \"\\[example\\]\"",
+    "test:example:ui": "npx playwright test --grep \"\\[example\\]\" --grep \"\\[ui\\]\"",
+    "test:smoke": "npx playwright test --grep \"\\[smoke\\]\"",
+    "test:smoke:ui": "npx playwright test --grep \"\\[smoke\\]\" --grep \"\\[ui\\]\"",
+    "test:smoke:api": "npx playwright test --grep \"\\[smoke\\]\" --grep \"\\[api\\]\"",
+    "test:smoke:visual": "npx playwright test --grep \"\\[smoke\\]\" --grep \"\\[visual\\]\"",
+    "test:regression": "npx playwright test --grep \"\\[regression\\]\"",
+    "test:regression:api": "npx playwright test --grep \"\\[regression\\]\" --grep \"\\[api\\]\"",
+    "test:regression:smoke": "npx playwright test --grep \"\\[regression\\]\" --grep \"\\[smoke\\]\"",
+    "test:regression:ui": "npx playwright test --grep \"\\[regression\\]\" --grep \"\\[ui\\]\"",
+    "test:regression:visual": "npx playwright test --grep \"\\[regression\\]\" --grep \"\\[visual\\]\"",
+    "test:ui": "npx playwright test --grep \"\\[ui\\]\"",
+    "test:api": "npx playwright test --grep \"\\[api\\]\"",
+    "test:visual": "npx playwright test --grep \"\\[visual\\]\"",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.23",
+    "@typescript-eslint/eslint-plugin": "^8.33.0",
+    "@typescript-eslint/parser": "^8.33.0",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

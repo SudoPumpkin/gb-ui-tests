@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
+// This configuration file sets up ESLint with TypeScript support and integrates Prettier for code formatting.
+
+// It extends recommended rules from ESLint and TypeScript, and enforces Prettier formatting as an error.

@@ -1,0 +1,14 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "always"
+  },
+  "eslint.validate": ["javascript", "typescript"]
+}
+
+// This file is used to configure VS Code settings for the project.
+
+
+// It enables format on save, applies ESLint fixes, and validates JavaScript and TypeScript files.
