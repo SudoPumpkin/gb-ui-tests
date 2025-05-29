@@ -2,6 +2,10 @@
 
 This repository contains automated UI and API tests for the GB SaaS application using Playwright and TypeScript.
 
+## Repository URL
+
+- [https://github.com/SudoPumpkin/gb-ui-tests.git](https://github.com/SudoPumpkin/gb-ui-tests.git)
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
@@ -12,7 +16,7 @@ This repository contains automated UI and API tests for the GB SaaS application 
 1. **Clone the repository:**
 
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/SudoPumpkin/gb-ui-tests.git
    cd gb-ui-tests
    ```
 
