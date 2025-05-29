@@ -1,4 +1,7 @@
 import { test, expect } from '@playwright/test';
+// This test checks if the navigation tabs in the application correctly navigate to their respective pages
+// and update the content displayed on the page accordingly.
+
 // This url is the base URL for the application being tested.
 const baseAppUrl = 'https://gb-saa-test.vercel.app';
 // This array contains the test cases for the navigation tabs.

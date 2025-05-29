@@ -14,6 +14,14 @@ trace.zip
 # Environment variables
 .env
 
+# K6 test output
+*.json
+*.csv
+*.bin
+*.html
+*.log
+k6-results/
+
 # Logs
 logs/
 *.log
