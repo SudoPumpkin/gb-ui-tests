@@ -30,9 +30,12 @@ jobs:
       - name: Run API tests
         run: npm run test:api
 
-      - name: Upload Playwright test results (if any)
+      - name: Generate Playwright HTML report
+        run: npm run test:report
+
+      - name: Upload Playwright HTML report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: playwright-test-results
-          path: test-results/
+          name: playwright-html-report
+          path: playwright-report/

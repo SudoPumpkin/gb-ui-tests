@@ -133,10 +133,16 @@ k6 run k6-tests/asset-loads.js
 
 ## Continuous Integration (CI)
 
-This project uses GitHub Actions to automatically run Playwright UI and API tests every night at 2:00 AM EST (7:00 AM UTC). Test results are uploaded as artifacts for review.
+This project uses GitHub Actions to automatically run Playwright UI and API tests every night at 2:00 AM EST (7:00 AM UTC). After each run, the Playwright HTML report is generated and uploaded as a downloadable artifact for review.
 
 You can find the workflow file at `.github/workflows/ci.yml`.
 
 To manually trigger the workflow, go to the Actions tab in your GitHub repository and select "Nightly Playwright Tests" > "Run workflow".
+
+To view the Playwright HTML report after a CI run:
+
+1. Go to the Actions tab and select the workflow run.
+2. Download the `playwright-html-report` artifact from the summary page.
+3. Unzip the artifact and open `index.html` in your browser.
 
 ---
