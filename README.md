@@ -147,6 +147,6 @@ To view the Playwright HTML report after a CI run:
 
 1. Go to the Actions tab and select the workflow run.
 2. Download the `playwright-html-report` artifact from the summary page.
-3. Unzip the artifact and open `index.html` in your browser.
+3. Unzip the artifact and open `index.html` in the `playwright-gha-report` directory in your browser.
 
 ---

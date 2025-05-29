@@ -31,11 +31,11 @@ jobs:
         run: npm run test:api
 
       - name: Generate Playwright HTML report
-        run: npm run test:report
+        run: npm run test:report:ci
 
       - name: Upload Playwright HTML report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: playwright-html-report
-          path: playwright-report/
+          path: playwright-gha-report/

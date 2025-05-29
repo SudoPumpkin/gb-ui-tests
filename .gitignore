@@ -6,6 +6,7 @@ node_modules/
 *.png
 html/
 playwright-report/
+playwright-gha-report/
 snapshots/
 test-results/
 tests-examples/
